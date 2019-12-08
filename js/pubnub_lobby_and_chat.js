@@ -8,7 +8,7 @@
 */
 
 
-var g_chess_url = "/chess.html";
+var g_chess_url = "/3d-chess.github.io/chess.html";
 
 // ATI: Function to navigate to the chess game URL using the correct URL arguments to set up the  game.
 //
