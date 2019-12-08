@@ -446,7 +446,8 @@ var App = function () {
     pubnub = PUBNUB.init({
       publish_key: 'pub-c-d17475e7-fc68-4869-aa1b-df0c7928d499',
       subscribe_key: 'sub-c-e53e204e-19c2-11ea-8db4-866798696d74',
-        uuid: me.uuid
+        uuid: me.uuid,
+      ssl: true
     });
 
     // Subscribe to the channel we create to service this app.
